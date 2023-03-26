@@ -1,0 +1,8 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {{ component('test_form', {
+        model: model,
+        form: form
+    }) }}
+{% endblock %}
